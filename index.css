@@ -5,7 +5,7 @@ body {
 .container {
     width: 960px;
     position: relative;
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     margin: 15px auto;
 }

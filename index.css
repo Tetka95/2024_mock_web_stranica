@@ -3,10 +3,10 @@ body {
     font-family: 'Courier New', Courier, monospace;
 }
 .container {
-    width: 1000px;
+    width: 960px;
     position: relative;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     margin: 15px auto;
 }
 
@@ -17,22 +17,22 @@ body {
 
 .container .card .face {
     width: 300px;
-    height: 200px;
+    height: 300px;
     transition: 0.5s;
 }
 
 .container .card .face.face1 {
     position: relative;
-    background: #333;
+    background: #9c66c9;
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
-    transform: translateY(100px);
+    transform: translateY(200px);
 }
 
 .container .card:hover .face.face1 {
-    background: #ff0057;
+    background: #79e4e4;
     transform: translateY(0);
 }
 
